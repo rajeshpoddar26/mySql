@@ -1,3 +1,6 @@
+
+-- CRUD OPERATION ON TABLE CREATION 
+
 -- CREATE SCHEMA/DATABASE
 CREATE SCHEMA COUNTRY;
 CREATE database earth;
@@ -146,7 +149,8 @@ CREATE TABLE DUMMY (
 describe earth.mummy;
 describe earth.dummy;
  
- 
+DROP TABLE earth.dummy;
+DROP TABLE earth.mummy;
  
 
  
